@@ -28,7 +28,7 @@ export default async function handler(req, res) {
     // Flip only if not already owned
     if (devProductId === "123456789" && !record.productsOwned.monospace0) {
       record.productsOwned.monospace0 = true;
-    } else if (devProductId === "987654321" && !record.productsOwned.polaris0) {
+    } else if (devProductId === "3543534723" && !record.productsOwned.polaris0) {
       record.productsOwned.polaris0 = true;
     }
 
